@@ -146,7 +146,7 @@ public class ZipPlugin extends Plugin {
             ZipParameters parameters = new ZipParameters();
             parameters.setCompressionMethod(Zip4jConstants.COMP_DEFLATE);
             parameters.setCompressionLevel(Zip4jConstants.DEFLATE_LEVEL_NORMAL);
-            if (!password.isEmpty()) {
+            if (password != null) {
                 zipFile.setPassword(password);
             }
             zipFile.createZipFileFromFolder(folder, parameters, false, 0);
