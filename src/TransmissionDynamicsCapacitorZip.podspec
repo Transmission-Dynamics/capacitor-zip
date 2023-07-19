@@ -1,6 +1,6 @@
 
   Pod::Spec.new do |s|
-    s.name = 'CapacitorZip'
+    s.name = 'TransmissionDynamicsCapacitorZip'
     s.version = '1.0.4'
     s.summary = 'Zip plugin'
     s.license = 'MIT'

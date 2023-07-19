@@ -22,7 +22,7 @@
     "dist/",
     "ios/",
     "android/",
-    "CapacitorZip.podspec"
+    "TransmissionDynamicsCapacitorZip.podspec"
   ],
   "keywords": [
     "capacitor",
