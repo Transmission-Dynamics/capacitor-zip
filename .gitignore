@@ -8,3 +8,5 @@ demo/android/app/build
 src/android/build
 .gradle
 local.properties
+
+.npmrc
